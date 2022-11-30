@@ -1,0 +1,68 @@
+/* sub4.css */
+@import url(common.css);
+
+@media screen and (max-width:499px) {
+
+/* mockup */
+.mockup_content{z-index: 50; position: relative; margin: 0 auto; width: 150px; height: 248px; 
+    background: url(../images/mobile.png) no-repeat 50% 50%; background-size: 100%;}
+.mockup_content>p{position: absolute; top: 4.6px; left: 5.5px; width: 136px; height: 236px;  
+    border-radius: 8px; overflow: hidden; border: 1px solid ddd; }
+video{width: 581px; position: absolute; top: -64.5px; left: -97px;}
+
+/* circle */
+@keyframes grow {
+    0% {transform: scale( 0 ); background: #FAD827;} 
+    100% {transform: scale( 1 );}
+}
+}
+
+@media screen and (min-width:500px) and (max-width:869px) {
+
+/* mockup */
+.mockup_content{z-index: 50; position: relative; margin: 0 auto; width: 236px; height: 392px; 
+    background: url(../images/mobile.png) no-repeat 50% 50%; background-size: 100%;}
+.mockup_content>p{position: absolute; top: 9px; left: 10px; width: 214px; height: 372px;  
+    border-radius: 15px; overflow: hidden; border: 1px solid ddd; }
+video{width: 911px; position: absolute; top: -101px; left: -152px;}
+
+/* circle */
+@keyframes grow {
+    0% {transform: scale( 0 ); background: #FAD827;} 
+    100% {transform: scale( 1 );}
+}
+}
+
+@media screen and (min-width:870px) and (max-width:1140px) {
+    
+/* mockup */
+.mockup_content{z-index: 50; position: relative; margin: 0 auto; width: 324px; height: 540px; 
+    background: url(../images/mobile.png) no-repeat 50% 50%; background-size: 100%;}
+.mockup_content>p{position: absolute; top: 16px; left: 15px; width: 294px; height: 508px;  
+    border-radius: 18px; overflow: hidden; border: 1px solid ddd; }
+video{width: 1250px; position: absolute; top: -140px; left: -209px;}
+
+/* circle */
+@keyframes grow {
+    0% {transform: scale( 0 ); background: #FAD827;} 
+    100% {transform: scale( 1 );}
+}
+
+}
+
+@media screen and (min-width:1141px) {
+
+/* mockup */
+.mockup_content{z-index: 50; position: relative; margin: 0 auto; width: 394px; height: 655px; 
+    background: url(../images/mobile.png) no-repeat 0 0;}
+.mockup_content>p{position: absolute; top: 17px; left: 17px; width: 355px; height: 612px; 
+    border-radius: 22px; overflow: hidden; border: 1px solid #ddd;}
+video{width: 1508px; position: absolute; top: -168px; left: -251px;}
+
+/* circle */
+@keyframes grow {
+    0% {transform: scale( 0 ); background: #FAD827;} 
+    100% {transform: scale( 1 );}
+}
+
+}
