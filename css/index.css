@@ -1310,7 +1310,7 @@ section.on .info_face{opacity: 1; transform: translateY(0);}
 
 /* works */
 .works{background: #252525; padding: 150px 0; box-sizing: border-box; position: relative;
-    height: 3000px; transition: all 0.6s linear 0s;}
+    height: 3750px; transition: all 0.6s linear 0s;}
 .works h3{margin-left: 200px; transform: translateY(100px); opacity: 0; 
     transition: all 0.6s ease-out 0s;}
 .works .works_icon{position: absolute; left: 206px; top: 0; 
@@ -1351,7 +1351,7 @@ section.on .info_face{opacity: 1; transform: translateY(0);}
     opacity: 0; transition: all 0.7s ease-out 0.6s;}
 .work1 .work_img{width: 660px;}
 .work1 .work_txt{position: absolute; top: 420px;}
-.work1 h4{color: #4CA8FE;}
+.work1 h4{color: #3C7EFF;}
 
 /* works - work2 */
 .work2{position: absolute; right: 200px; top: 270px; transform: translateY(100px); 
@@ -1381,12 +1381,20 @@ section.on .info_face{opacity: 1; transform: translateY(0);}
 .work5 .work_txt{position: absolute; top: 515px; }
 .work5 h4{color: #FF3838;}
 
+/* works - work6 */
+.work6{position: absolute; top: 2700px; right: 170px; transform: translateY(100px); 
+    opacity: 0; transition: all 3.5s ease-out 0.6s;}
+.work6 .work_img{width: 770px;}
+.work6 .work_txt{position: absolute; top: 365px; right: 0;}
+.work6 h4{color: #0DAEFE;}
+
 section.on h3{opacity: 1; transform: translateY(0);}
 section.on .work1{opacity: 1; transform: translateY(0);}
 section.on .work2{opacity: 1; transform: translateY(0);}
 section.on .work3{opacity: 1; transform: translateY(0);}
 section.on .work4{opacity: 1; transform: translateY(0);}
 section.on .work5{opacity: 1; transform: translateY(0);}
+section.on .work6{opacity: 1; transform: translateY(0);}
 
 /* contact */
 .contact{width: 100%; padding: 150px 200px; box-sizing: border-box; 

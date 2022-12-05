@@ -57,7 +57,7 @@ video{width: 1250px; position: absolute; top: -140px; left: -209px;}
     background: url(../images/mobile.png) no-repeat 0 0;}
 .mockup_content>p{position: absolute; top: 17px; left: 17px; width: 355px; height: 612px; 
     border-radius: 22px; overflow: hidden; border: 1px solid #ddd;}
-video{width: 1508px; position: absolute; top: -168px; left: -251px;}
+video{width: 1510px; position: absolute; top: -168px; left: -251px;}
 
 /* circle */
 @keyframes grow {

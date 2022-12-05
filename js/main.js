@@ -18,6 +18,8 @@ for(let i=0;i<workList.length;i++){
             bg.style.background = "#BAA432"
         } if(i==4){
             bg.style.background = "#A12828"
+        } if(i==5){
+            bg.style.background = "#3490C3"
         }
         
     })
@@ -135,6 +137,22 @@ for(let i=0;i<btn.length;i++){
     })
 }
 
+/* detail_popup */
+const closeBtn = document.querySelector(".btn_close");
+const detailPopup = document.querySelector(".detail_popup");
+const viewDetail = document.querySelector(".view_detail");
+
+viewDetail.addEventListener("click" , e => {
+    e.preventDefault();
+    detailPopup.style.display = "block"
+});
+
+closeBtn.addEventListener("click" , e => {
+    e.preventDefault();
+    detailPopup.style.display = "none";
+});
+
+/* 탑버튼 */
 btnTop.addEventListener("click" , e => {
     e.preventDefault();
     window.scroll({

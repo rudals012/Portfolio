@@ -12,7 +12,7 @@ body::-webkit-scrollbar{display: none;}
 a{text-decoration: none; color: #fff;}
 
 /* scrolldown */
-.scrolldown{--color: white; --sizeX: 30px; --sizeY: 46px; position: fixed; z-index: 300;
+.scrolldown{--color: white; --sizeX: 30px; --sizeY: 46px; position: fixed; z-index: 100;
     left: 50%; bottom: 40px; transform: translateX(-50%);
     width: var(--sizeX); height: var(--sizeY); margin-left: var(sizeX / 2);
     border: calc(var(--sizeX) / 11) solid var(--color); border-radius: 50px;
@@ -541,7 +541,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {transform: rotate(-45d
 .circle_move{background: #252525; position: absolute; top: -800px; left: 50%; margin-left: -1050px;
     width: 2100px; height: 1600px; border-radius: 50%; animation:grow 4s;}
 @keyframes grow {
-    0% {transform: scale( 0 ); background: #4CA8FE;} 
+    0% {transform: scale( 0 ); background: #4C7DFE;} 
     70% {transform: scale( 1 ); background: #252525; }
 }
 
