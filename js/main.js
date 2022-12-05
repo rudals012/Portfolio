@@ -35,10 +35,17 @@ const workInfo = document.querySelector(".work_info");
 const mockupImg = document.querySelector(".mockup_image");
 const sections = document.querySelectorAll("#container>section");
 const btnTop = document.querySelector(".btn_top");
+const scrollDown = document.querySelector(".scrolldown");
 let devHeight = window.innerHeight;
 
 window.addEventListener("scroll" , e => {
     let scroll = document.querySelector("html").scrollTop;
+
+    //scrolldown
+    if(scroll > 200){
+        scrollDown.style.opacity = "0";
+    }
+
 
     // sections
     for(let i=0;i<sections.length;i++){
