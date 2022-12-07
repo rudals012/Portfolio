@@ -54,7 +54,7 @@ window.addEventListener("scroll" , e => {
         if(scroll >= (i*devHeight-300) && scroll < (i+1)*devHeight){
             sections[i].classList.add("on");
             sections[3].classList.remove("on");
-        }if(scroll > (devHeight+3000)){
+        }if(scroll > (devHeight+3800)){
             sections[3].classList.add("on");
         }
     }
